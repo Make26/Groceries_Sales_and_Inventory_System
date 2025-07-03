@@ -1,0 +1,7 @@
+# Ignore private config and OS files
+.env
+*.log
+node_modules/
+vendor/
+sql/*.sql     # Optional: if you want to avoid uploading db
+
